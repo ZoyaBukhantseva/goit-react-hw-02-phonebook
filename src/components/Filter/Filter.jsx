@@ -18,10 +18,9 @@ const Filter = ({ filter, inputHandler }) => {
     </>
   );
 };
-
+export default Filter;
 Filter.propTypes = {
-  filter: PropTypes.string,
+  filter: PropTypes.string.isRequired,
   inputHandler: PropTypes.func.isRequired,
 };
 
-export default Filter;
